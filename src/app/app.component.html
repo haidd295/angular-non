@@ -1,9 +1,4 @@
-<ul class="nav nav-pills card-header-pills">
-    <li class="nav-item">
-        <a class="nav-link" routerLink="/">Home</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" routerLink="detail">Detail</a>
-    </li>
-</ul>
-<router-outlet></router-outlet>
+<!-- <h3>Your name: {{user.name}}</h3>
+<p>Your age: {{user.age}}</p> -->
+<input type="text" [(ngModel)]="user.name" />
+<button type="button" (click)="updateName()">update button</button>

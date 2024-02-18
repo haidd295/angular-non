@@ -6,13 +6,14 @@ import { Component, OnInit, OnChanges } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'angular-non';
-  value = '';
-
-  clearValue() {
-    this.value = '123';
+  user = {
+    name: 'cuu',
+    age: 19
   }
-  constructor() {}
+  updateName() {
+    this.user.name = 'peter'
+  }
+  constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() { }
 }

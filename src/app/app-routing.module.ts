@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
 import { ArticleListComponent } from './article-list/article-list.component';
 
 const routes: Routes = [
-  { path: 'home', component: MainComponent },
+  { path: '', component: AppComponent },
   {
     path: 'sign-in',
     component: SignInComponent,
